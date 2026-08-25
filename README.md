@@ -111,8 +111,8 @@ Currently connecting and provisioning workstations to the AD server.
 | AD Server (DC, DNS, DHCP) | ✅ Done |
 | Windows 11 Workstation | ✅ In progress |
 | Ubuntu Desktop Workstation | ✅ In progress |
-| Corporate Server | ⬜ Not started |
-| Email Server (MailHog) | ⬜ Not started |
+| Corporate Server | 🟡 In Progress |
+| Email Server (MailHog) | 🟡 In Progress |
 | Security Onion | ⬜ Not started |
 | Security Server | ⬜ Not started |
 | SIEM (Wazuh) | ⬜ Not started |
