@@ -22,9 +22,9 @@ Skimming through the overall goals of this lab, I began with setting up Active D
 
 ## Screenshots
 
-![Static IPv4 Config](images/dc-static-ip.png)
-![DHCP Config](images/dc-dhcp-scope.png)
-![Added users in AD](images/dc-ad-users.png)
+![Static IPv4 Config](images/writeup1/dc-static-ip.png)
+![DHCP Config](images/writeup1/dc-dhcp-scope.png)
+![Added users in AD](images/writeup1/dc-ad-users.png)
 
 ## Problems I ran into
 Generally didn't run into many problems so far. Everything is very preliminary so far, so I figured it would be a simple setup. However, I definitely had long wait times and issues with VirtualBox. There would be steps where I had to restart my VM only to be met with an infinite loading screen. The only way I could get past this is if I restarted the VM itself, and then it'd finally work. Other than that, went fine.

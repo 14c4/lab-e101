@@ -109,8 +109,8 @@ Currently connecting and provisioning workstations to the AD server.
 |---|---|
 | Provision VMs | ✅ Done |
 | AD Server (DC, DNS, DHCP) | ✅ Done |
-| Windows 11 Workstation | 🟡 In progress |
-| Ubuntu Desktop Workstation | 🟡 In progress |
+| Windows 11 Workstation | ✅ In progress |
+| Ubuntu Desktop Workstation | ✅ In progress |
 | Corporate Server | ⬜ Not started |
 | Email Server (MailHog) | ⬜ Not started |
 | Security Onion | ⬜ Not started |
