@@ -15,12 +15,12 @@ and janed could log in as real domain users.
 1. Provisioned the Windows 11 Enterprise VM
 2. Set the client's DNS to point to the DC (10.0.0.5)
 3. Went to System Properties → Change domain, entered corp.project-x-dc.com
-4. Hit an error immediately — the join couldn't reach the DC's DNS
+4. Hit an error immediately. The join couldn't reach the DC's DNS
 5. Traced it to the VM's network adapter being set to Host-Only (I'd set 
    this earlier to skip the Windows login screen during setup)
 6. Switched the adapter to the NAT Network, retried the join, entered 
    Administrator credentials, and it went through
-7. Confirmed in ADUC on the DC — PROJECT-X-WIN-C showed up in the 
+7. Confirmed in ADUC on the DC. PROJECT-X-WIN-C showed up in the 
    Computers container with the correct DNS name
 8. Logged in as johnd on the client, ran `whoami` in Command Prompt, 
    returned `corp\johnd`, confirming a real domain login
